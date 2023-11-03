@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Ilixir Fragrance</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css">
+
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/ScrollTrigger.min.js"></script>  
+
+</head>      
+
+  <!-- //////////// MAIN CONTENT //////////// -->
+  <main>
+
+    <!-- Navigation Menu Bar -->
+    <div class="navbar" id="myNavbar">
+      <a class="home" href="#">ILIXIR</a>
+      <a class="menu" href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+      <div id="menuPopup" class="menu-popup">
+        <a href="#home">Home</a>
+        <a href="#discover-target-image">Discover</a>
+        <a href="#shopnow-target-image">Purchase</a>
+      </div>
+    </div>
+    
+  
+     
+    <!-- Pages -->
+
+    <div class="pages">
+
+      <div class="homepage" id="home"> 
+        <img src="../CologneCode/Images/ilixir1.png" alt="Home Page">
+        <button class="button button-on-image" onclick="scrollToFourth()">DISCOVER</button>
+      </div>
+    </div>
+
+      
+
+      <div class="secondpage"> 
+        <img src="../CologneCode/Images/ilixir2.png" alt="Second Page">
+      </div>
+
+      <div class="thirdpage">
+        <img id="thirdpage-img" src="../CologneCode/Images/ilixir3.png" alt="Third Page">
+      
+    
+      <!-- Carousel -->
+        <p>CELEBRITIY BRAND AMBASSADORS</p>
+        <div class="carousel">
+          <div class="carousel__body">
+            <div class="carousel__prev"><i class="far fa-angle-left"></i>
+              <img src="../CologneCode/Images/arrowleft.png" alt="Left Arrow"> </div>
+              <div class="carousel__next"><i class="far fa-angle-right"></i>
+                <img src="../CologneCode/Images/arrowright.png" alt="Right Arrow"> </div>
+            <div class="carousel__slider">
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/swift.jpeg" alt="Swift">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/ronaldo.png" alt="Ronaldo">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/david.png" alt="David">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/jordan.png" alt="Jordan">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/ryan.png" alt="Ryan">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/zayn.png" alt="Zayn">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/chris.png" alt="Chris">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/rock.png" alt="Rock">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/gomez.png" alt="Gomez">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+              <div class="carousel__slider__item">
+                <div class="item__3d-frame">
+                  <div class="item__3d-frame__box item__3d-frame__box--front">
+                    <img src="../CologneCode/Images/miley.png" alt="Miley">
+                  </div>
+                  <div class="item__3d-frame__box item__3d-frame__box--left"></div>
+                  <div class="item__3d-frame__box item__3d-frame__box--right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="discover-target-image">
+        <!-- When the 'discover' button is clicked on home page, it scrolls users to the 4th page - 'ilixir4' -->
+        <img src="../CologneCode/Images/ilixir4.png" alt="Fourth Page">
+        <button class="shopbutton-on-image" onclick="scrollToSeventh()">SHOP NOW</button>
+      </div>
+
+      <div class="fifthpage"> 
+        <img src="../CologneCode/Images/ilixir5.png" alt="Fifth Page">
+      </div>
+
+      <div class="sixthpage"> 
+        <img src="../CologneCode/Images/ilixir6.png" alt="Sixth Page">
+      </div>
+
+      <div id="shopnow-target-image"> 
+        <!-- When the 'Shop Now' button is clicked on the fourth page, it scrolls users to the 7th page - 'ilixir7' -->
+        <img src="../CologneCode/Images/ilixir7.png" alt="Seventh Page">
+
+
+        <!-- Purchase page input text boxes -->
+              <input type="text" id="input1" style="padding: 15px; margin: 10px 10px 30px 10px; border: 1px solid #ccc; 
+              position: relative; top: -440px; left: 980px; width: 255px; border-radius: 5px;" placeholder="27 Moolup Way Gwelup 6018">
+        <br>
+              <input type="text" id="input2" style="padding: 15px; margin: 10px; border: 1px solid #ccc; 
+              position: relative; top: -440px; left: 980px; width: 255px; border-radius: 5px;" placeholder="Ilixirfragrance@gmail.com">
+        
+        <!-- Shoelace pop up -->
+        <sl-dialog label="ILIXIR FRAGRANCE" class="purchase-overview" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          Your purchase has been confirmed. Thank you.
+
+          <!-- Close button-->
+          <sl-button slot="footer" variant="primary">Close</sl-button>
+        </sl-dialog>
+  
+        <!-- Shoelace purchase button -->
+      <sl-button style="position: relative; top: -380px; left: 412px; width: 285px;">PURCHASE</sl-button>
+
+
+      <!-- Shoelace carousel -->
+      <sl-carousel pagination navigation mouse-dragging loop>
+        <sl-carousel-item>
+          <img src="../CologneCode/Images/bottles1.png" alt="Bottles 1">
+        </sl-carousel-item>
+        <sl-carousel-item>
+          <img
+            src="../CologneCode/Images/bottles2.png" alt="Bottles 2">
+        </sl-carousel-item>
+        <sl-carousel-item>
+          <img
+            src="../CologneCode/Images/bottles3.png" alt="Bottles 3">
+        </sl-carousel-item>
+       
+      </sl-carousel>
+      
+      <!-- Shoelace Alert -->
+      <sl-alert variant="primary" open closable class="alert-closable">
+      "ILIXIR FRAGRANCE A LUXURY SMELLING COLOGNE THAT I LOVE" - CRISTIANO RONALDO       </sl-alert>
+      </div>
+      
+      <div class="eighthpage"> 
+        <img src="../CologneCode/Images/ilixir8.png" alt="Eighth Page">
+      </div>                              
+     
+     
+
+  </main>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
